@@ -34,7 +34,7 @@ node ('master'){
 }
 
 def mvn(args) {
-    call "${tool 'Maven 3.x'}/bin/mvn ${args}"
+    bat "${tool 'Maven 3.x'}/bin/mvn ${args}"
 }
 
 def runTests(duration) {
