@@ -34,20 +34,20 @@ node ('master'){
 }
 
 def mvn(args) {
-    sh "${tool 'Maven 3.x'}/bin/mvn ${args}"
+    cmd.exe "${tool 'Maven 3.x'}/bin/mvn ${args}"
 }
 
 def runTests(duration) {
     node {
-        sh "sleep ${duration}"
+        cmd.exe "sleep ${duration}"
         }
     }
 
 def deploy(id) {
     unstash 'war'
-    sh "cp x.war /tmp/${id}.war"
+    cmd.exe "cp x.war /tmp/${id}.war"
 }
 
 def undeploy(id) {
-    sh "rm /tmp/${id}.war"
+    cmd.exe "rm /tmp/${id}.war"
 }
