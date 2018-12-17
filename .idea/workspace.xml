@@ -17,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+            <state relative-caret-position="629">
+              <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -102,7 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1545046821165</updated>
       <workItem from="1545046824572" duration="323000" />
-      <workItem from="1545051307472" duration="1471000" />
+      <workItem from="1545051307472" duration="2969000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1545046869405</created>
@@ -125,11 +125,25 @@
       <option name="project" value="LOCAL" />
       <updated>1545052895981</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="revert">
+      <created>1545052978954</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1545052978954</updated>
+    </task>
+    <task id="LOCAL-00005" summary="revert">
+      <created>1545054787150</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1545054787150</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1794000" />
+    <option name="totallyTimeSpent" value="3292000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1176" extended-state="6" />
@@ -170,13 +184,14 @@
     <MESSAGE value="init project" />
     <MESSAGE value="rename cloud name" />
     <MESSAGE value="change sh to cmd" />
-    <option name="LAST_COMMIT_MESSAGE" value="change sh to cmd" />
+    <MESSAGE value="revert" />
+    <option name="LAST_COMMIT_MESSAGE" value="revert" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+        <state relative-caret-position="629">
+          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
         </state>
       </provider>
     </entry>
